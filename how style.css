@@ -1,0 +1,31 @@
+[33mcommit 2508f8100b7cdb826341713aed0e4647cfc5b45c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: JackSa <amada.sg@villahermosa.tecnm.mx>
+Date:   Tue Aug 1 09:25:09 2023 -0500
+
+    Tabla central de la página con imagenes
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 1ddc4bf..0df1023 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -14,6 +14,19 @@[m
+ <a href="cvu.html">Cvu</a>[m
+ <a href="acerca.html">Acerca de</a>[m
+     </div>[m
+[32m+[m[32m    <div class="titulo">[m
+     <h1>Sitio Oficial de Amada Jackeline Salomón González</h1>[m
+[32m+[m[32m</div>[m
+[32m+[m[32m<div class = "content">[m
+[32m+[m[41m    [m
+[32m+[m[32m    <table class="tablaPrincipal">[m
+[32m+[m[32m<tr>[m
+[32m+[m[32m    <td><a href ="identidad.html"><img src= "img/identidad.jpg"></a></td>[m
+[32m+[m[32m    <td><a href ="portafolio.html"><img src= "img/portafolio.jpg"></a></td>[m
+[32m+[m[32m    <td><a href ="cvu.html"><img src= "img/cvu.jpg"></a></td>[m
+[32m+[m[32m</tr>[m
+[32m+[m[32m</table>[m
+[32m+[m
+[32m+[m[32m</div>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
